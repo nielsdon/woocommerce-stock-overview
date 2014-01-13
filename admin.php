@@ -82,7 +82,7 @@
 			<tr<?php if($product->stock < 0){ echo " style=\"background:red\""; } ?>>
 				<!--<td><?php echo get_the_title( $item->parent_id ); ?></td>-->
 				<td><?php echo $product->get_title(); ?></td>
-				<td><?php echo item->parent_id; ?></td>
+				<td><?php echo $item->parent_id; ?></td>
 				<td><?php echo implode("/",$product->get_variation_attributes()); ?></td>
 				<!--<td><?php echo $product->stock; ?></td>-->
 				<td><button>-</button><input style="width: 30px" type="text" name="stock_<?php echo $product->id ?>" value="<?php echo $product->stock; ?>"/><button>+</button></td>
