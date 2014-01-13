@@ -1,4 +1,4 @@
-<h1><?php echo SELF::name ?></h1>
+<h1>Stock Overview</h1>
 <h2>Simple products</h2>
 	<table cellspacing="0" cellpadding="2">
 		<thead>
